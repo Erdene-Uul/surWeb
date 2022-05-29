@@ -8,18 +8,29 @@ import {
 
 export default function AboutUs() {
   return (
-    <div className="flex flex-col items-center lg:my-24 ">
+    <div className="flex flex-col items-center max-w-6xl mx-auto lg:my-24 ">
       <div className="font-bold lg:text-4xl">
         Бидний <span className="text-[#49B3FF]">тухай</span>
       </div>
-      <div className="my-6 lg:text-sm mx-auto lg:max-w-2xl text-center sm:max-w-xl max-w-lg text-xs">
+      <div className="my-6 lg:text-base mx-auto lg:max-w-3xl text-center sm:max-w-xl max-w-lg text-xs">
         Хүрээ МХТДС-ийн ууган тэнхимүүдийн нэг болох Компьютерийн програм
         хангамжийн тэнхим нь анх 2002 онд 30 оюутан 3 багштайгаар гараагаа
         эхэлсэн бол өнөөдөр тус сургуулийн шилдэг тэнхимүүдийн болон
         програмистууд төрүүлэн гаргасаар байна.
       </div>
-      <div className="flex items-center lg:space-x-20 space-x-5">
-        <img className="h-36 lg:h-72" src={temp} />
+      <div className="mt-8 flex items-center ">
+        <div className="mr-28">
+          <iframe
+            className="rounded-xl"
+            width="560"
+            height="345"
+            src="https://www.youtube.com/embed/zoh19bWOHHw"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
         <div>
           <div className="text-xs lg:text-lg font-bold">
             Миний төрсөн нутаг Монгоын сайхан орон
