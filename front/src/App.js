@@ -7,7 +7,7 @@ function App() {
     showSideBar((s) => !s);
   };
   return (
-    <div>
+    <div className="font-Roboto">
       <Routes>
         <Route
           exact

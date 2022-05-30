@@ -6,7 +6,7 @@ import SideBar from "../sideBar";
 import Logo from "../../assets/images/image 47.png";
 export default function Header(props) {
   return (
-    <div className=" justify-between flex w-full h-14 lg:h-16 p-2">
+    <div className=" justify-between flex w-full h-14 lg:h-16 p-2 ">
       <div className=" flex text-white ">
         <img className="h-full" src={Logo} alt="logo" />
         <p className="ml-1 text-[8px] lg:text-xs flex flex-col justify-center">
